@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Alarm App</title>
+</head>
+<body>
+    <!-- <div id="alarm">
+        <div class="alarm-name">Multiple Timers App</div>
+
+
+        <div class="set-alarm">
+            <div id="clock"></div>
+            <div class="set-time">Set Time :</div>
+            <!-- <div class="t">
+                <input type="number" name="hr" placeholder="hh" max="23" min="00">
+                <input type="number" name="min" placeholder="mm" max="59" min="00">
+                <input type="number" name="sec" placeholder="ss" max="59" min="00">
+            </div> -->
+          
+            <!-- <button onchange="setAlarmTime()" class="button set-alarm">Set</button>
+        </div>
+        <input type="time" onchange="setAlarm(this.value)" name="alertTime">
+
+
+        <div class="current-timers">Current Timers</div>
+
+    </div>
+
+    <div class="stop-alarm">
+        <div class="time-up">Timer Is Up !</div>
+        <button type="reset" class="button clear-alarm" onclick="clearAlarm()">Stop</button>
+    </div>
+     --> -->
+
+
+    <!-- <div id="upcoming-alarms">
+        <ul id="upcoming-alarms-list"></ul>
+    </div> -->
+
+
+    <secton id="alarm">
+        <div class="container">
+            <div class="set-time">Set Time: </div>
+            <div id="clock"></div>
+            <form>
+                <button onclick="setAlarm()" class="button set-alarm">Set</button>
+            </form>
+        </div>
+        <form>
+             <!-- <input type="time" onchange="setAlarmTime(this.value)" name="alarmType"  id="formHtml" placeholder="hh:mm:ss"> -->
+             <input type="number" placeholder="Hours" id="hoursHtml">
+             <input type="number" placeholder="Minutes" id="minutesHtml">
+        </form>
+             <div class="controls">
+                    <div class="time-up">Timer is Up!</div>
+                     <button onclick="clearAlarm()" class="button clear-alarm">Stop</button>
+             </div>
+
+        
+     </secton>
+
+
+     <div id="upcoming-alarms">
+        <ul id="upcoming-alarms-list"></ul>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
